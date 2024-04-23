@@ -1,0 +1,25 @@
+<div class="ag-format-container">
+  <div class="ag-courses_box">
+
+    <div class="ag-courses_item" *ngFor="let cards of cardsArray">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+        <div class="ag-courses-item_title">
+          <div class="image-container">
+            <img src= {{cards.imgsrc}} alt="">
+          </div>
+          <div class="description">
+            <div class="title">
+             {{cards.title}}
+            </div>
+            <div class="card-details">
+             {{cards.description}}
+            </div>
+          </div>
+        </div>
+
+      </a>
+    </div>
+
+  </div>
+</div>
