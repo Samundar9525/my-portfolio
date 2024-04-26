@@ -9,30 +9,30 @@ export class CardsComponent {
   @Input() cardsArray = [
     {
       title: 'Angular',
-      imgsrc:'../../../assets/angular.png',
+      imgsrc:'assets/angular.png',
       description:''
 
     },
     {
       title: 'Django',
-      imgsrc:'../../../assets/django.png',
+      imgsrc:'assets/django.png',
       description:''
 
     },
     {
       title: 'python',
-      imgsrc:'../../../assets/python.png',
+      imgsrc:'assets/python.png',
       description:''
 
     },
     {
       title: 'Postgres',
-      imgsrc:'../../../assets/postgresql.png',
+      imgsrc:'assets/postgresql.png',
       description:''
     },
     {
       title: 'Mongo DB',
-      imgsrc:'../../../assets/mongodb.png',
+      imgsrc:'assets/mongodb.png',
       description:''
     }
 ]
